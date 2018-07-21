@@ -1,4 +1,5 @@
 #!/bin/bash
+gcc -v
 apt-get update && apt-get install -y wget gnupg
 wget -O - http://llvm.org/apt/llvm-snapshot.gpg.key|apt-key add -
 echo "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-6.0 main" | tee -a /etc/apt/sources.list
