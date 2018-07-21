@@ -24,8 +24,8 @@ rm $ANYKERNEL_DIR/scorpio/Image.gz-dtb
 rm $KERNEL_DIR/arch/arm64/boot/Image.gz $KERNEL_DIR/arch/arm64/boot/Image.gz-dtb
 
 export ARCH=arm64
-export CXX="/pipeline/build/root/toolchain/aarch64-linux-android-clang/bin/clang++"
-export CC="/pipeline/build/root/toolchain/aarch64-linux-android-clang/bin/clang"
+export CXX="/pipeline/build/root/toolchain/aarch64-linux-android-clang/clang-4679922/bin/clang++"
+export CC="/pipeline/build/root/toolchain/aarch64-linux-android-clang/clang-4679922/bin/clang"
 export CLANG_TRIPLE=aarch64-linux-gnu-
 export KBUILD_BUILD_USER="Psy_Man"
 export KBUILD_BUILD_HOST="PsyBuntu"
